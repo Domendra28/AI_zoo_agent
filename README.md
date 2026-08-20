@@ -1,15 +1,16 @@
 # 🦁 AI Zoo Agent
 
-An intelligent AI-powered zoo guide built with the **Google Agent Development Kit (ADK)**. Discover fascinating facts about animals from around the world—from their diets and habitats to their scientific classifications and evolutionary origins.
+An intelligent AI-powered zoo guide built with the **Google Agent Development Kit (ADK)**. This is like an AI Zoo guide that can tell you anything about zoo animals—from what they eat and their origins to their scientific names. Perfect for anyone visiting a zoo who wants to learn and enjoy a better experience!
 
 ## ✨ Features
 
 - 🦁 **Comprehensive Animal Database** - Detailed information on diverse zoo animals
 - 🌍 **Habitat & Origin Information** - Learn where animals come from and their natural environments
 - 🍖 **Dietary Details** - Understand what animals eat and their nutritional needs
-- 🔬 **Scientific Classification** - Explore taxonomy and biological relationships
+- 🔬 **Scientific Classification** - Explore taxonomy, scientific names, and biological relationships
 - 💬 **Conversational AI** - Natural language interactions for an engaging experience
 - 🎯 **Interactive Learning** - Ask questions and get instant answers
+- 🎓 **Educational & Engaging** - Perfect for zoo visitors who want to learn and enjoy better
 
 ## 🚀 Getting Started
 
@@ -36,7 +37,7 @@ python app.py
 
 This AI agent leverages the Google ADK to:
 1. Process user queries about zoo animals
-2. Retrieve and synthesize animal information
+2. Retrieve and synthesize animal information (diet, origin, scientific names, etc.)
 3. Provide engaging, educational responses
 
 ## 🤝 Contributing
