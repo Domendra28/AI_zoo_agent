@@ -3,6 +3,8 @@ from google.adk.tools import AgentTool
 from google.adk.tools import google_search
 import zoneinfo
 from datetime import datetime
+import os
+import uvicorn
 # Make sure your tool decorator is imported, e.g., from google.adk import tool
 
 
@@ -64,3 +66,13 @@ you are assistant to the user and you will first greet the user like welcome to 
 )
 
 
+
+
+# ... [the rest of your existing agent code stays the same] ...
+
+if __name__ == "__main__":
+    # Grabs the dynamic port from Render, or defaults to 8000 locally
+    port = int(os.environ.get("PORT", 8000))
+    
+    # Binds to 0.0.0.0 so Render can route external traffic
+    uvicorn.run(app, host="0.0.0.0", port=port)
