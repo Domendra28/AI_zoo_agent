@@ -75,4 +75,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
     
     # Binds to 0.0.0.0 so Render can route external traffic
-    uvicorn.run(app, host="0.0.0.0", port=port)
+    uvicorn.run(root_agent, host="0.0.0.0", port=port)
