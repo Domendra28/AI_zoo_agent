@@ -1,0 +1,5 @@
+google-genai>=1.72.0,<2.0.0
+python-dotenv>=1.2.2
+litellm>=1.83.7
+pydantic>=2.13.4
+google-cloud-aiplatform[adk,agent_engines]>=1.153.1
