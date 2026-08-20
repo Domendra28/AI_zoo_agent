@@ -15,7 +15,7 @@ An intelligent AI-powered zoo guide built with the **Google Agent Development Ki
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Python 3.8+
+- Python 3.10+
 - Google Agent Development Kit
 
 ### Installation
@@ -46,7 +46,7 @@ We welcome contributions! Feel free to submit issues and pull requests.
 
 ## 📄 License
 
-[Add your license here]
+
 
 ## 📧 Contact
 
