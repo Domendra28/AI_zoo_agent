@@ -1,0 +1,5 @@
+.env
+.adk/
+session.db
+__pycache__/
+tmp/
